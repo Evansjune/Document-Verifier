@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
       //   print(element.toString());
       //   result += element["label"];
       // });
-      result += element["label"];
+      result += element["label"] + " " + (element["confidence"] as double).toStringAsFixed(2);
       setState(() {
         result;
       });
@@ -147,7 +147,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     '$result',
                     textAlign: TextAlign.center,
                     style: TextStyle(
-                      fontSize: 35,
+                      fontSize: 28,
                       color: Colors.black,
                       backgroundColor: Colors.white60
                     ),
