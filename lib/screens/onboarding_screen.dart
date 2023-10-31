@@ -1,7 +1,8 @@
+import 'package:doc_verify/Authtentication/login.dart';
 import 'package:fancy_on_boarding/fancy_on_boarding.dart';
 import 'package:flutter/material.dart';
 import 'home_screen.dart';
-import 'login.dart';
+
 
 class OnBoardingPage extends StatefulWidget {
   const OnBoardingPage({Key? key}) : super(key: key);
@@ -75,10 +76,10 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         pageList: pageList,
         onDoneButtonPressed: () =>
             Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder:
-                (context)=> Login()), (Route<dynamic> route) => false),
+                (context)=> LoginScreen()), (Route<dynamic> route) => false),
         onSkipButtonPressed: () =>
             Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder:
-                (context)=> Login()), (Route<dynamic> route) => false)
+                (context)=> LoginScreen()), (Route<dynamic> route) => false)
       ),
     );
   }

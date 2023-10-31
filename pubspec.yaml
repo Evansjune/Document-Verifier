@@ -46,6 +46,8 @@ dependencies:
   tflite: ^1.1.2
   firebase_core: ^2.19.0
   firebase_auth: ^4.11.1
+  path: ^1.8.3
+  intl: ^0.18.1
 #  tflite: ^1.1.2
 
 

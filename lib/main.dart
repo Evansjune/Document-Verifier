@@ -1,5 +1,3 @@
-
-import 'package:doc_verify/screens/login.dart';
 import 'package:doc_verify/screens/onboarding_screen.dart';
 import 'package:doc_verify/screens/splash_screen.dart';
 import 'package:flutter/material.dart';

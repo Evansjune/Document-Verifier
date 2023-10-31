@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
       //   print(element.toString());
       //   result += element["label"];
       // });
-      result += element["label"] + " " + (element["confidence"] as double).toStringAsFixed(2);
+      result += element["label"] + " " + (element["confidence"] as double).toStringAsFixed(2) + " ";
       setState(() {
         result;
       });
